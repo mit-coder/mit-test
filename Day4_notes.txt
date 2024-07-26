@@ -1,0 +1,11 @@
+git fetch origin
+
+git pull
+git pull --verbose
+git pull --no-remote origin ----- equals fetch
+git pull --no-rebase origin
+git pull --rebase origin
+
+git restore  < . / filename >
+git checkout < . / filename >
+git restore --staged
